@@ -1,0 +1,31 @@
+<section class='wrapper ctaForm'>
+  <h2>Peça um or&ccedil;amento gr&aacute;tis</h2>
+  <div class='formWrapper'>
+    <div class='address'>
+      <p>Av. Pastor Martin Luther King Jr. 5389 - Vicente de Carvalho - Rio de Janeiro - RJ</p>
+      <p>(21) 2587-1505</p>
+      <p>(21) 99766-7338</p>
+      <a href='mailto:{{site.email.a}}'>{{site.email.a}}</a>
+      <a href='mailto:{{site.email.b}}'>{{site.email.b}}</a>
+    </div>
+    <form action='form.php' method='post'>
+      <div>
+        <label for='name'>Nome</label>
+        <input type='text' name='name' placeholder='Nome' required>
+      </div>
+      <div>
+        <label for='email'>Email</label>
+        <input type='email' name='email' placeholder='Email' required>
+      </div>
+      <div>
+        <label for='phone'>Telefone</label>
+        <input type='number' name='phone' placeholder='Telefone'>
+      </div>
+      <div>
+        <label for='mens'>Mensagem</label>
+        <textarea name='mens' placeholder='Mensagem'></textarea>
+      </div>
+      <input type='submit' name='submit' value='Enviar'>
+    </form>
+  </div>
+</section>

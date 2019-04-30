@@ -1,0 +1,14 @@
+section.productsPage
+  div.content
+    ul
+      li
+        span.icon
+          background-color: $orange
+        &:nth-of-type(odd)
+          span.icon
+            background-color: $green
+        &:not(:first-of-type)
+          &::before
+            background-color: $orange
+        a
+          color: white

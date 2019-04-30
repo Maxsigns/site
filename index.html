@@ -1,0 +1,12 @@
+---
+layout: default
+---
+{% include slider.html %}
+
+{% for section in site.landingSections %}
+<section class='wrapper {{section.name}}'>
+  <div class='content'>
+    {{section.content}}
+  </div>
+</section>
+{% endfor %}

@@ -1,0 +1,17 @@
+---
+name: products
+---
+<h2>Produtos</h2>
+<ul>
+  {% for product in site.produtos limit: 3 %}
+  {% if product.page == 'product' %}
+  <li class='homeListItem'>
+      <span class='icon'>{{product.icon}}</span>
+      <h4>{{product.title}}</h4>
+      <p>{{product.brief}}</p>
+      <a class='moreInfo' href={{product.url}}>Saiba mais</a>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+<a href='/produtos/index.html'>Veja todos os produtos</a>

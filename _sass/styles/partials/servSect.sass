@@ -1,0 +1,35 @@
+section.services
+  background-color: $green
+  div.content
+    position: relative
+    +breakpoint
+      width: 50vw
+    & > h2, & > p
+      color: white
+    ul
+      li
+        +breakpoint
+          margin: 0 auto
+          background-color: white
+          width: 40%
+        span
+          color: $green
+          background-color: white
+        a
+          color: black
+        &:not(:first-of-type)
+          &::before
+            background-color: white
+    & > a
+      color: white
+      border-color: white
+      &:hover
+        color: $green
+  &::after
+    border:
+      top: 30px solid $green
+  &::before
+    z-index: 0
+    background:
+      position: center top
+      image: linear-gradient(45deg, $green, $green 25%, transparent 25%, transparent 75%, $green 75%), url('../img/img_02.png')

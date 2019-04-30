@@ -1,0 +1,40 @@
+section.portfolio
+  div.content
+    h2
+      color: $orange
+    ul
+      +breakpoint
+        display: flex
+        justify-content: center
+      li
+        &:not(:first-of-type)
+          margin-top: 2rem
+        a
+          text-decoration: none
+          +breakpoint
+            display: flex
+            align-items: center
+            justify-content: center
+            text-decoration: none
+            &:hover
+              img
+                opacity: 0.3
+              h4
+                display: block
+          img
+            width: 60vw
+            display: block
+            margin: 0 auto
+            +breakpoint
+              width: 15vw
+          h4
+            display: block
+            text-align: center
+            color: $grey
+            +breakpoint
+              width: 150px
+              position: absolute
+              display: none
+          img, h4
+            +breakpoint
+              transition: all .5s ease-in-out

@@ -1,0 +1,12 @@
+section.about
+  position: relative
+  div.content
+    +breakpoint
+      width: 50vw
+    h2
+      color: $orange
+  &::before
+    z-index: -1
+    background:
+      position: left top
+      image: linear-gradient(150deg, white, white 25%, transparent 25%, transparent 75%, $orange 75%), url('../img/img_09.png')

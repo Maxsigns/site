@@ -1,0 +1,49 @@
+---
+layout: page
+page: aboutPage
+title: Sobre
+topImg: img_05.png
+---
+<h2>Quem somos</h2>
+<div>
+  <p class='blurb'>
+    Mantemos um alto n&iacute;vel de satisfa&ccedil;&atilde;o ao aliar a
+    estrutura que se busca em grandes empresas &agrave; proximidade no
+    atendimento s&oacute; encontrada em uma pequena empresa.
+  </p>
+  <p class='office'>
+    Desde 1995, a Maxsigns atua na &aacute;rea de comunica&ccedil;&atilde;o visual
+    e sinaliza&ccedil;&atilde;o, atendendo clientes de todos os portes e em todo o
+    Brasil. Com alta qualidade e tecnologia, aliados &agrave; experi&ecirc;ncia e
+    capacidade t&eacute;cnica de sua equipe, a Maxsigns garante total
+    satisfa&ccedil;&atilde;o de seus clientes com suas produ&ccedil;&otilde;es.
+  </p>
+</div>
+<p class='profile'>
+  Maxmiliano Nogueira, profissional especializado em
+  Programa&ccedil;&atilde;o Visual, comanda uma equipe de t&eacute;cnicos
+  destaque em solu&ccedil;&otilde;es de comuni&ccedil;&atilde;o visual,
+  sinaliza&ccedil;&atilde;o e impressos.
+</p>
+<div class='whyChoose'>
+  <h3>Porque escolher a {{site.title}}</h3>
+  <ul class='why'>
+    {% for choose in site.data.why %}
+    <li>
+      <span>{{choose.icon}}</span>
+      <h4>{{choose.title}}</h4>
+      <p>{{choose.description}}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+<div class='clients'>
+  <h3>Nossos clientes</h3>
+  <ul class='clientSlide'>
+    {% for client in site.static_files %}
+    {% if client.name contains '_logo' %}
+    <li><img class='clientLogo' src='{{client.path}}' alt='{{client.basename}}'></li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</div>

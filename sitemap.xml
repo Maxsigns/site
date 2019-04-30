@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+      <loc>http://www.maxsigns.com.br/</loc>
+      <lastmod>2017-09-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/about.html</loc>
+      <lastmod>2017-09-01</lastmod>
+      <changefreq>yearly</changefreq>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/produtos/index.html</loc>
+      <lastmod>2017-09-01</lastmod>
+      <changefreq>yearly</changefreq>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/servicos/index.html</loc>
+      <lastmod>2017-09-01</lastmod>
+      <changefreq>yearly</changefreq>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/portfolio/index.html</loc>
+      <lastmod>2017-09-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/contato.html</loc>
+      <lastmod>2017-09-01</lastmod>
+      <changefreq>yearly</changefreq>
+   </url>
+
+</urlset>

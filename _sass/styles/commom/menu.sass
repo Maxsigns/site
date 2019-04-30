@@ -1,0 +1,70 @@
+ul.menuList
+  list-style-type: none
+  li
+    a
+      text-decoration: none
+
+ul.topMenu
+  display: none
+  text-align: center
+  position: fixed
+  z-index: 2
+  width: 100vw
+  margin-top: 1rem
+  left: 0
+  height: 100vh
+  background-color: rgba(black, .8)
+  padding: 2rem
+  border-bottom-left-radius: 5px
+  +breakpoint
+    display: flex
+    justify-content: space-around
+    position: initial
+    z-index: 0
+    width: 50vw
+    height: initial
+    margin: 0
+    background-color: white
+    padding: 0
+    border-bottom-left-radius: 0
+  li
+    &:not(:nth-of-type(1))
+      margin-top: 2rem
+      +breakpoint
+        margin-top: 0
+    a
+      font-weight: bold
+      color: white
+      font-size: $medium
+      text-transform: uppercase
+      letter-spacing: 1px
+      transition: color 1s, border 1s
+      border:
+        width: 2px
+        style: solid
+        color: transparent
+        radius: 3px
+      padding: $button
+      &:hover, &.active
+        color: $green
+        border-color: $green
+      &:hover
+        transition: color 300ms, border 300ms
+      +breakpoint
+        color: $grey
+        font-size: .75rem
+
+ul.bottomMenu
+  text-align: center
+  li
+    +breakpoint
+      display: inline
+    &:not(:nth-of-type(1))
+      margin-top: 1rem
+      +breakpoint
+        margin-left: 1rem
+    a
+      color: $grey
+      &.active
+        font:
+          weight: bolder

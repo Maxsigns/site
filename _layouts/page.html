@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{% unless page.layout == 'job' %}
+{% unless page.layout == 'service' %}
+{% unless page.layout == 'product' %}
+<div class='pageTitle' style='background-image: url(../assets/img/{{page.topImg}})'></div>
+{% endunless %}
+{% endunless %}
+{% endunless %}
+
+<section class='wrapper {{page.page}}'>
+  <div class='content'>
+  {{content}}
+  </div>
+</section>

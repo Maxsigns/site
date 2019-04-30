@@ -1,0 +1,69 @@
+header
+  background:
+    color: white
+  div:nth-of-type(1)
+    +clearfix
+    background:
+      color: $orange
+    padding: .5rem 1rem
+    +breakpoint
+      padding:
+        top: 0
+        bottom: 0
+    a
+      position: relative
+      color: white
+    a.ctaBtn
+      float: left
+      border: 2px solid white
+      border-radius: 3px
+      padding: 4px 10px
+      text-decoration: none
+      font-weight: bold
+      +breakpoint
+        display: none
+    a.socialIcon
+      float: right
+      margin-left: 1rem
+      font-size: $tall
+      +breakpoint
+        font-size: $medium
+  div:nth-of-type(2)
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: $sideSpace
+    margin: 1rem 0
+    +breakpoint
+      padding: $wrapper
+      margin: 0
+    h1
+      width: 150px
+      height: auto
+      overflow: hidden
+      text-indent: 101%
+      white-space: nowrap
+      background:
+        image: url('../img/logo.svg')
+        repeat: no-repeat
+        position: center center
+        size: contain
+    nav
+      button
+        border: none
+        background-color: $green
+        padding: $button
+        border-radius: 3px
+        font-size: $tall
+        color: white
+        +breakpoint
+          display: none
+
+
+.stick
+  position: fixed
+  top: 0
+  width: 100%
+  z-index: 5
+  //div:nth-of-type(1)
+    //display: none

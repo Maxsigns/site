@@ -1,0 +1,20 @@
+---
+layout: page
+page: productsPage
+title: Produtos
+topImg: img_03.png
+---
+<h2>Produtos</h2>
+<p>Desde estiquetas adesivas à totens com iluminação interna, a {{site.title}} oferece o suporte ideal para expandir seu negócio.</p>
+<ul>
+  {% for product in site.produtos %}
+  {% if product.page == 'product' %}
+  <li>
+      <span class='icon'>{{product.icon}}</span>
+      <h4>{{product.title}}</h4>
+      <p>{{product.brief}}</p>
+      <a class='moreInfo' href='{{product.url}}'>Saiba mais</a>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>

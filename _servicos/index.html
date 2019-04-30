@@ -1,0 +1,34 @@
+---
+layout: page
+page: servicesPage
+title: Servi&ccedil;os
+topImg: img_04.png
+---
+<h2>Servi&ccedil;os</h2>
+<p>
+  Com a especializa&ccedil;&atilde;o da Maxsigns, produzindo
+  sinaliza&ccedil;&atilde;o e comunica&ccedil;&atilde;o visual, fica
+  f&aacute;cil entender a qualidade aplicada aos seus servi&ccedil;os. Do
+  atendimento personalizado &agrave; instala&ccedil;&atilde;o de seus
+  produtos, o cliente tem a garantia de resposta e pontualidade na
+  execu&ccedil;&atilde;o de seus servi&ccedil;os.
+</p>
+<img src='../assets/img/img_08.png' alt='Manuten&ccedil;&atilde;o de toten'>
+<ul>
+  {% for service in site.servicos %}
+  {% if service.page == 'service' %}
+  <li>
+      <span class='icon'>{{service.icon}}</span>
+      <h4>{{service.title}}</h4>
+      <p>{{service.brief}}</p>
+      <a class='moreInfo' href='{{service.url}}'>Saiba mais</a>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+<p>
+  S&atilde;o esses alguns dos diferenciais que levam a Maxsigns conquistar
+  clientes de todos os portes e tamanhos. Com uma equipe comprometida com a
+  qualidade, s&atilde;o garantidos servi&ccedil;os e produtos sempre bem
+  realizados e nos prazos desejados.
+</p>

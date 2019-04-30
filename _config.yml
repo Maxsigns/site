@@ -1,0 +1,64 @@
+# Site configuration
+title: Maxsigns
+skills: Letreiros | Banners | Adesivos | Blockletters
+local: Rio de Janeiro
+email:
+  a: max@maxsigns.com.br
+  b: producao@maxsigns.com.br
+phone: 21 9 9766 7338
+description: Desde 1995 oferecendo a melhor solu&ccedil;&atilde;o em comunica&ccedil;&atilde;o visual.
+keywords: comunica&ccedil;&atilde;o visual, letreiros, banners, adesivos, totens, blockletters
+social:
+  facebook: maxsignscomunicacaovisual
+  instagram: max_maxsigns
+  twitter: Maxsigns
+author: Ramon Uch&ocirc;a Gon&ccedil;alves de Pinho
+
+# Jekyll configuration
+url: http://www.maxsigns.com.br
+encoding: utf-8
+layouts_dir: _layouts
+includes_dir: _includes
+data_dir: _data
+portfolio_dir: /assets/img/portfolio/
+sass:
+  sass_dir: _sass
+  style: uncompressed
+
+gems:
+  - jekyll-autoprefixer
+
+kramdown:
+  auto_ids: false
+
+collections:
+  landingSections:
+  portfolio:
+    output: true
+  produtos:
+    output: true
+  servicos:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: '_portfolio'
+    values:
+      layout: job
+      page: job
+  -
+    scope:
+      path: '_produtos'
+    values:
+      layout: product
+      page: product
+  -
+    scope:
+      path: '_servicos'
+    values:
+      layout: service
+      page: service
+
+# Dev settings
+host: 0.0.0.0

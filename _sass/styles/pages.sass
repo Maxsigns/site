@@ -1,0 +1,105 @@
+// pages styles
+@import pages/aboutPage.sass
+@import pages/contactPage.sass
+@import pages/errorPage.sass
+@import pages/thanksPage.sass
+@import pages/productsPage.sass
+@import pages/servicesPage.sass
+@import pages/portfolioPage.sass
+@import pages/jobPage.sass
+
+div.pageTitle
+  position: relative
+  background:
+    size: cover
+    repeat: no-repeat
+    position: center center
+  width: 100vw
+  height: 35vh
+  text:
+    decoration: underline
+    transform: uppercase
+  font:
+    size: $capital
+    weight: bold
+  padding: 10% 10vw 0
+  +breakpoint
+    background-attachment: fixed
+  &::after, &::before
+    content: ''
+    position: absolute
+    left: 50%
+    margin-left: -30px
+    border:
+      left: 30px solid transparent
+      right: 30px solid transparent
+  &::after
+    bottom: 0
+    border-bottom: 30px solid #fafafa
+  &::before
+    z-index: 1
+    top: 0
+    border-top: 30px solid #fff
+
+
+section[class*='Page']
+  div.content
+    & > h2
+      margin-left: 1rem
+      +breakpoint
+        margin-left: 0
+    & > p
+      +breakpoint
+        width: 40vw
+    h3
+      text-transform: uppercase
+
+section.productsPage, section.servicesPage, section.portfolioPage
+  div.content
+    ul
+      margin: 1rem
+      +breakpoint
+        margin: 5rem 0
+      li
+        &:not(:first-of-type)
+          margin-top: 1rem
+
+
+section.productsPage, section.servicesPage
+  +breakpoint
+    background-color: #fafafa
+  div.content
+    ul
+      +breakpoint
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+      li
+        position: relative
+        +breakpoint
+          width: 25vw
+          padding: 2rem
+          background-color: white
+          box-shadow: 0 6px 15px rgba(black, .2)
+          border-radius: 5px
+          &:nth-of-type(n+4)
+            margin-top: 5rem !important
+        &:not(:first-of-type)
+          margin-top: 8rem
+          +breakpoint
+            margin-top: 0
+          &::before
+            content: ''
+            display: block
+            width: 150px
+            height: 4px
+            position: absolute
+            left: 50%
+            top: -5.5rem
+            margin-left: -75px
+            +breakpoint
+              display: none
+        p
+          margin-top: .5rem
+        a
+          color: black

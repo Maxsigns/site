@@ -1,0 +1,22 @@
+---
+name: services
+---
+<h2>Servi&ccedil;os</h2>
+<p>
+  Mantemos um alto n&iacute;vel de satisfa&ccedil;&atilde;o ao aliar a
+  estrutura que se busca em grandes empresas &agrave; proximidade no
+  atendimento s&oacute; encontrada em uma pequena empresa.
+</p>
+<ul>
+  {% for service in site.servicos limit: 3 %}
+  {% if service.page == 'service' %}
+  <li class='homeListItem'>
+      <span class='icon'>{{service.icon}}</span>
+      <h4>{{service.title}}</h4>
+      <p>{{service.brief}}</p>
+      <a class='moreInfo' href='{{service.url}}'>Saiba mais</a>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+<a href='/servicos/index.html'>Veja todos os servi&ccedil;os</a>

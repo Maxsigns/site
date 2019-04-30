@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang='pt-br'>
+
+{% include head.html %}
+
+<body>
+
+{% include header.html %}
+
+{{content}}
+
+{% include cta.html %}
+
+{% include footer.html %}
+
+<script type='text/javascript' src='/assets/js/scripts.js'></script>
+
+<script src="https://use.fontawesome.com/12987bfe20.js"></script>
+
+{% if page.url == '/contato.html' %}
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAdEruoL4Wr8c4EEPV1X6lnt9PJQ8EfwI&callback=initMap" async defer></script>
+{% endif %}
+
+</body>
+</html>

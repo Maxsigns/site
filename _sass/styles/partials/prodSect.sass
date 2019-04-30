@@ -1,0 +1,28 @@
+section.products
+  background-color: $grey
+  div.content
+    h2, p
+      color: white
+    ul
+      li
+        +breakpoint
+          background-color: black
+          width: 25vw
+        span
+          background-color: $orange !important
+        h4, a
+          color: white
+        &:nth-of-type(odd)
+          span
+            background-color: $green !important
+        &:not(:first-of-type)
+          &::before
+            background-color: $orange
+    & > a
+      color: white
+      border-color: white
+      &:hover
+        color: $grey
+  &::after
+    border:
+      top: 30px solid $grey
