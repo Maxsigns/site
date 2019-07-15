@@ -25,7 +25,7 @@ sass:
   sass_dir: _sass
   style: uncompressed
 
-gems:
+plugins:
   - jekyll-autoprefixer
 
 kramdown:
