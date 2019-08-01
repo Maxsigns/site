@@ -109,7 +109,7 @@ if(window.location.pathname == '/contato.html') {
 
   // google maps
   function initMap() {
-    var myLatLng = {lat: -22.857078, lng: -43.310087};
+    var myLatLng = {lat: -22.8534888, lng: -43.3168857};
 
     // map
     var map = new google.maps.Map(document.getElementById('map'), {
