@@ -22,6 +22,7 @@ layouts_dir: _layouts
 includes_dir: _includes
 data_dir: _data
 portfolio_dir: /assets/img/portfolio/
+imgs_dir: /assets/img/
 sass:
   sass_dir: _sass
   style: uncompressed
