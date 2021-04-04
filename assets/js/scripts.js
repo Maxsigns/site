@@ -54,12 +54,12 @@ window.onscroll = function() {
 var hours = date.getHours();
     ctaBtn = document.getElementsByClassName('ctaBtn')[0];
 
-if ( hours >= 8 && hours <= 17 ) {
-  ctaBtn.setAttribute('href', 'tel:+55-21-2587-1505');
-}
-else {
+// if ( hours >= 8 && hours <= 17 ) {
+//   ctaBtn.setAttribute('href', 'tel:+55-21-2587-1505');
+// }
+// else {
   ctaBtn.setAttribute('href', 'tel:+55-21-99766-7338');
-}
+// }
 //end ctaBtn
 
 
@@ -109,7 +109,7 @@ if(window.location.pathname == '/contato.html') {
 
   // google maps
   function initMap() {
-    var myLatLng = {lat: -22.8534888, lng: -43.3168857};
+    var myLatLng = {lat: -22.8537095, lng: -43.3169656};
 
     // map
     var map = new google.maps.Map(document.getElementById('map'), {
