@@ -4,14 +4,16 @@ name: portfolio
 <h2>Portfolio</h2>
 <p>Confira alguns de nossos trabalhos</p>
 <ul>
-  {% for project in site.portfolio limit:4 %}
+  {% for project in site.portfolio %}
   {% if project.layout == 'job'%}
+  {% if project.highlight %}
   <li>
     <a href='{{project.url}}'>
       <img src='{{site.portfolio_dir}}{{project.folder}}/thumb.png' alt='{{project.title}}'>
       <h4>{{project.title}}</h4>
     </a>
   </li>
+  {% endif %}
   {% endif %}
   {% endfor %}
 </ul>
