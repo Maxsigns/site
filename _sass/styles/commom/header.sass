@@ -28,6 +28,14 @@ header
       font-size: $tall
       +breakpoint
         font-size: $medium
+    h1
+      font-size: 0.9rem
+      float: left
+      margin-top: 15px
+      @media only screen and (min-width: 718px) and (max-width: 899px)
+        margin-left: 15px
+      +breakpoint
+        margin: 6px 0
   div:nth-of-type(2)
     display: flex
     align-items: center
