@@ -4,8 +4,8 @@
 
    <url>
       <loc>http://www.maxsigns.com.br/</loc>
-      <lastmod>2017-09-01</lastmod>
-      <changefreq>monthly</changefreq>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
       <priority>1</priority>
    </url>
 
@@ -22,21 +22,250 @@
    </url>
 
    <url>
+      <loc>http://www.maxsigns.com.br/produtos/adesivos.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/produtos/backlight.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/produtos/banner.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/produtos/display.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/produtos/envelopamento.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/produtos/frontlight.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+   </url>
+
+   <url>
       <loc>http://www.maxsigns.com.br/servicos/index.html</loc>
       <lastmod>2017-09-01</lastmod>
       <changefreq>yearly</changefreq>
    </url>
 
    <url>
+      <loc>http://www.maxsigns.com.br/servicos/instalacao.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/servicos/manutencao.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/servicos/retirada.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+   </url>
+
+   <url>
       <loc>http://www.maxsigns.com.br/portfolio/index.html</loc>
-      <lastmod>2017-09-01</lastmod>
-      <changefreq>monthly</changefreq>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/portfolio/arteplus.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/portfolio/centurion.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/portfolio/faperj.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/portfolio/igrejaBatista.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/portfolio/michelAdvogado.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/portfolio/porto.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/portfolio/torresbike.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/portfolio/belezaNatural.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/portfolio/cna.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/portfolio/favorita.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/portfolio/odontoVasquez.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/portfolio/rodrigoRestaurante.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/portfolio/uerj.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/portfolio/budweiser.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/portfolio/colMarques.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/portfolio/ibeu.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/portfolio/ituran.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/portfolio/petroGon.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/portfolio/shopGrandeRio.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/portfolio/cea.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/portfolio/delimix.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/portfolio/ifood.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/portfolio/lasa.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/portfolio/pontoBala.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>http://www.maxsigns.com.br/portfolio/taco.html</loc>
+      <lastmod>2021-04-04</lastmod>
+      <changefreq>yearly</changefreq>
       <priority>0.8</priority>
    </url>
 
    <url>
       <loc>http://www.maxsigns.com.br/contato.html</loc>
-      <lastmod>2017-09-01</lastmod>
+      <lastmod>2021-04-04</lastmod>
       <changefreq>yearly</changefreq>
    </url>
 
