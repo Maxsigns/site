@@ -114,7 +114,7 @@ setTimeout(
 
 
 //start contact page scripts
-if(window.location.pathname == '/contato.html') {
+if(window.location.pathname.includes('/contato.html')) {
 
 
   // google maps
@@ -142,7 +142,7 @@ if(window.location.pathname == '/contato.html') {
 
 
 // start about page scripts
-if(window.location.pathname == '/sobre.html') {
+// if(window.location.pathname == '/sobre.html') {
 
 
   // client logo slider
@@ -150,16 +150,25 @@ if(window.location.pathname == '/sobre.html') {
   function clientSlide() {
       var u;
       var clientLogo = document.getElementsByClassName('clientLogo');
-      for (u = 0; u < clientLogo.length; u++) {
+
+      if(clientLogo.length > 0) {
+        for (u = 0; u < clientLogo.length; u++) {
          clientLogo[u].style.opacity = '.2';
+        }
+
+        clientIndex++;
+
+        if (clientIndex > clientLogo.length) {
+          clientIndex = 1
+        }
+
+        clientLogo[clientIndex-1].style.opacity = '1';
       }
-      clientIndex++;
-      if (clientIndex > clientLogo.length) {clientIndex = 1}
-      clientLogo[clientIndex-1].style.opacity = '1';
+      
       setTimeout(clientSlide, 4000);
   }
 
   clientSlide();
   //end client slider
-}
+// }
 // end about page scripts
