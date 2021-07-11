@@ -8,7 +8,7 @@ name: portfolio
   {% if project.layout == 'job'%}
   {% if project.highlight %}
   <li>
-    <a href='{{project.url}}'>
+    <a href='{{site.baseUrl}}/{{project.url}}'>
       <img src='{{site.portfolio_dir}}{{project.folder}}/thumb.png' alt='{{project.title}}'>
       <h4>{{project.title}}</h4>
     </a>
