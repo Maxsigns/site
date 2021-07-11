@@ -9,7 +9,7 @@ topImg: img_17.png
   {% for project in site.portfolio %}
   {% if project.layout == 'job'%}
   <li>
-    <a href='{{site.baseUrl}}/{{project.url}}'>
+    <a href='{{site.baseUrl}}{{project.url}}'>
       <img src='{{site.baseUrl}}/{{site.portfolio_dir}}{{project.folder}}/thumb.png' alt='{{project.title}}'>
       <h4>{{project.title}}</h4>
     </a>
