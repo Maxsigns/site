@@ -77,26 +77,36 @@ setTimeout(
 
 
 // start homepage scripts
-if(window.location.pathname == '/') {
+// if(window.location.pathname == '/') {
 
   // main slider engine
   var myIndex = 0;
+  
   function carousel() {
       var i;
       var slides = document.getElementsByClassName('mySlides');
-      for (i = 0; i < slides.length; i++) {
-         slides[i].style.display = 'none';
+
+      if(slides.length > 0) {
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = 'none';
+        }
+
+        myIndex++;
+
+        if (myIndex > slides.length) {
+          myIndex = 1
+        }
+
+        slides[myIndex-1].style.display = 'flex';
       }
-      myIndex++;
-      if (myIndex > slides.length) {myIndex = 1}
-      slides[myIndex-1].style.display = 'flex';
+      
       setTimeout(carousel, 2000);
   }
 
   carousel();
   // end main slider
 
-}
+// }
 // end homepage scripts
 
 
