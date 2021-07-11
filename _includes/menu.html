@@ -1,8 +1,8 @@
 <ul class='menuList {{include.menuClass}}' {{include.menuId}}>
-  <li><a {% if page.url == "/" %}class='active'{% endif %} href='/'>In&iacute;cio</a></li>
-  <li><a {% if page.url == "/sobre.html" %}class='active'{% endif %} href='/sobre.html'>Quem somos</a></li>
-  <li><a {% if page.url == "/produtos/index.html" or page.page == 'product' %}class='active'{% endif %} href='/produtos/index.html'>Produtos</a></li>
-  <li><a {% if page.url == "/servicos/index.html" or page.page == 'service' %}class='active'{% endif %} href='/servicos/index.html'>Servi&ccedil;os</a></li>
-  <li><a {% if page.url == "/portfolio/index.html" or page.layout == 'job' %}class='active'{% endif %} href='/portfolio/index.html'>Portfolio</a></li>
-  <li><a {% if page.url == "/contato.html" %}class='active'{% endif %} href='/contato.html'>Contato</a></li>
+  <li><a {% if page.url == "/" %}class='active'{% endif %} href='{{site.baseUrl}}/'>In&iacute;cio</a></li>
+  <li><a {% if page.url == "/sobre.html" %}class='active'{% endif %} href='{{site.baseUrl}}/sobre.html'>Quem somos</a></li>
+  <li><a {% if page.url == "/produtos/index.html" or page.page == 'product' %}class='active'{% endif %} href='{{site.baseUrl}}/produtos/index.html'>Produtos</a></li>
+  <li><a {% if page.url == "/servicos/index.html" or page.page == 'service' %}class='active'{% endif %} href='{{site.baseUrl}}/servicos/index.html'>Servi&ccedil;os</a></li>
+  <li><a {% if page.url == "/portfolio/index.html" or page.layout == 'job' %}class='active'{% endif %} href='{{site.baseUrl}}/portfolio/index.html'>Portfolio</a></li>
+  <li><a {% if page.url == "/contato.html" %}class='active'{% endif %} href='{{site.baseUrl}}/contato.html'>Contato</a></li>
 </ul>
