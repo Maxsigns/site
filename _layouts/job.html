@@ -6,9 +6,9 @@ layout: page
 {% if image.path contains page.folder %}
 {% unless image.basename == 'thumb' %}
 {% unless image.basename contains '_logo' %}
-<img class='jobImg' src='{{site.baseUrl}}/{{image.path}}' alt='{{page.title}}'>
+<img class='jobImg' src='/{{image.path}}' alt='{{page.title}}'>
 {% endunless %}
 {% endunless %}
 {% endif %}
 {% endfor %}
-<a href='{{site.baseUrl}}/portfolio/index.html'>Veja todos os trabalhos</a>
+<a href='/portfolio/index.html'>Veja todos os trabalhos</a>

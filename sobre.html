@@ -42,7 +42,7 @@ topImg: img_05.jpg
   <ul class='clientSlide'>
     {% for client in site.static_files %}
     {% if client.name contains '_logo' %}
-    <li><img class='clientLogo' src='{{site.baseUrl}}/{{client.path}}' alt='{{client.basename}}'></li>
+    <li><img class='clientLogo' src='/{{client.path}}' alt='{{client.basename}}'></li>
     {% endif %}
     {% endfor %}
   </ul>

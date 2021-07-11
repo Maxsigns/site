@@ -13,7 +13,7 @@ topImg: img_04.jpg
   produtos, o cliente tem a garantia de resposta e pontualidade na
   execu&ccedil;&atilde;o de seus servi&ccedil;os.
 </p>
-<img src='{{site.baseUrl}}/assets/img/img_08.jpg' alt='Manuten&ccedil;&atilde;o de toten'>
+<img src='/assets/img/img_08.jpg' alt='Manuten&ccedil;&atilde;o de toten'>
 <ul>
   {% for service in site.servicos %}
   {% if service.page == 'service' %}
@@ -21,7 +21,7 @@ topImg: img_04.jpg
       <span class='icon'>{{service.icon}}</span>
       <h4>{{service.title}}</h4>
       <p>{{service.brief}}</p>
-      <a class='moreInfo' href='{{site.baseUrl}}{{service.url}}'>Saiba mais</a>
+      <a class='moreInfo' href='{{service.url}}'>Saiba mais</a>
   </li>
   {% endif %}
   {% endfor %}
